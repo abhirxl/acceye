@@ -1,0 +1,36 @@
+{
+  "name": "ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "env-cmd -f ./src/envs/.env.development next dev -p 5001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/colors": "^6.0.0",
+    "@ant-design/icons": "^4.7.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.16",
+    "@reduxjs/toolkit": "^1.9.1",
+    "axios": "^1.2.0",
+    "dayjs": "^1.11.6",
+    "env-cmd": "^10.1.0",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6",
+    "next": "13.0.6",
+    "next-redux-wrapper": "^8.0.0",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.40.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0",
+    "uuid": "^9.0.0",
+    "yup": "^0.32.11"
+  }
+}

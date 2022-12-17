@@ -1,0 +1,3 @@
+--require test/metadata/bootstrap.js
+--recursive
+--timeout 25000

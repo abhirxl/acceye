@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "napses-client",
+  "private_key_id": "9fe1de6e86f22d1b799e2df7db4a100afb010b18",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCjaVgiHn943Vd7\njDvL42V/iJ7EFwnSeHNSb+GzRhOYkI2cM9h18YZzqsJyuGDTkiHNOZjFTU3XmCDW\n5Iufvu9tFPzM2NeXfpyxEAC8+NlwQUe4s/2tPkotaqE7kvldHBgeWPW13jEZ6mRx\niu+gZ0kwj3gl2UVqmQuEcd19LsIN39W9yGf4GL0Wv1tTnQAyvU+XeNwXBU6Q2+3E\neKaryFFJbGVCb6a9TBECjiV8OHkbNAUSN3kBeMDUSJwLYIYxg+F0JB1F6ecI3oP7\nx6J8jUMLoWnYZ2Ca7DzeSzuic9Qs8iDFfU1IC99HYVFwpIQ2EmZzIWnZ+z24r12x\nqm19mJ13AgMBAAECggEABnRIN1zGAyOW63nP+M8b+KwQPUV9rVL1lxl1LCwF5R48\ngaFomMv32AS0Fmzi4ihg7maqeoyBmRTYozQ2sZIMid3s2DhuV3z4OmQb61rW18C0\nUP7G87tEmcOe56f38m4EI9q2pb7HaLMh0Xw/17GMqf7Yq4IH5Fx0IICQ03tvzbVr\n3QXpaq0mGeE5+4eZuFO50tBT8CCIkVYNoYnqLgwt4eL7/i4sOY29Wo6mQfFznqfU\n7cEHAcjcBEFniFWa9NQi2CikkJJQVpu1gIhDWAsyEzSmia1ihi3O4t0i8PBfCpzb\n6/VRNIUY4nOJyfSnEi8W4I9Q+E4mvRUzFzrAN8Hr7QKBgQDbUkMSlk0Cv5FjwUF+\nTaLWPolZtzZ6wyKxTYEr5Uj4zBGkQNLCPFufz4jscAHhkROFnJneuy6FzLAcdkjX\na0F57rNPjUqkuLj6EbFd5eYCaSJNPdJHjBhu5h0V3a7N7pjxQrsmBC6w+XqVkeZC\n5xiaf8Vf25EFtNZvc/KMyv1wLQKBgQC+vW5xwd6jvUKmjFD/2ZZH2DQeyZVMX9W4\n64O/BPdRKiTqVGyjpyrNPrCuunPaiHNRQ9+w15X1GMMxuavnTT9SRzwE1g5612+N\nv2LHTXbUZktQZPygDHhqXHYqT352P4uFkim74H10w9iRS3BemUhRASMFVWJzbh7V\nxUZld/6mswKBgFJ1W0JhwBKIc+FNh5I1HkPuvzU77P+63hBLU4Vtb0Ibd4aJ2LOu\nfcRYAuLiOdLU+MIDXtafCZ7ElnIdBsX3TWbKmCAQvz+vM9zRSh5DkXbWkE76L1U3\nFvibC9RsxIwoaNhMfpCMggGHys7xS+FbgaSU5WBk7OF4XCcLMOY+a4sBAoGBAIAK\ndguTUzujnwxigTVfAUz1S/em5rxAUR4zq1sdoFAx9FoBlnQ9kbP582036PG4S4Ew\nCQeTkSzZFJ9avpUk++7lttqgP1QjLtV+tnaH/88RZFlxkUx3UpZDv2cjugbzHVvr\nBG0Eg/NQTR8r/yDh0PPfyXyZFt/Z+oUSSvFundmVAoGACPE2C2boeJCDXtavA4xP\nuFDfg3Xe5cxhdpXsbd7m6QI1495mD7X2mYuKALMjcP4ut7Nf7Kx1aMWxj8W1x/aI\ntX2G9ZZJNQTGM918NuBzzD81R3MZfjCe4LIF1n6lCxJwhznH+0a0NZwn928hF/qa\n8Lml8cb6yCmx+gOuuAdbnuE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "logger-jobexchange@napses-client.iam.gserviceaccount.com",
+  "client_id": "101586890175490328145",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/logger-jobexchange%40napses-client.iam.gserviceaccount.com"
+}
