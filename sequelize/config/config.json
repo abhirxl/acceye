@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "username": "root",
+    "password": "abhi@mysql",
+    "database": "task_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "TEST-discussradicals",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
+

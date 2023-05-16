@@ -1,5 +1,6 @@
 
 import customAxiosInterceptor from './custom-axios-interceptor';
+
 export const post = (url, entity) => new Promise((resolve, reject) => {
   customAxiosInterceptor.post(url, entity).then((response) => {
     if (response && response.data) {
@@ -20,7 +21,8 @@ export const get = (url) => new Promise((resolve, reject) => {
   });
 });
 
-export const detroy = (url, entity) => new Promise((resolve, reject) => {
+// delete
+export const destroy = (url, entity) => new Promise((resolve, reject) => {
   customAxiosInterceptor.delete(url, {
     data: entity
   }).then((response) => {
@@ -32,12 +34,13 @@ export const detroy = (url, entity) => new Promise((resolve, reject) => {
   });
 });
 
+// update
 export const put = (url, entity) => new Promise((resolve, reject) => {
   customAxiosInterceptor.put(url, entity).then((response) => {
     if (response && response.data) {
       resolve(response.data);
     }
   }).catch((ex) => {
-    reject(ex);
+    console.log(ex);
   });
 });

@@ -1,15 +1,13 @@
-import DashboardLayout from 'src/layouts/DashboardLayout'
-import ThemeCustomization from 'src/themes'
-import '../styles/globals.css'
+import ThemeCustomization from "src/themes";
+import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ router, Component, pageProps }) {
+  // console.log("main page ", router);
   return (
     <ThemeCustomization>
-      <DashboardLayout>
-        <Component {...pageProps} />
-      </DashboardLayout>
+      <Component {...pageProps} />
     </ThemeCustomization>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
