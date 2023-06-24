@@ -14,22 +14,11 @@ const getAllUsers = async (req, res) => {
     });
   }
 };
-// const getAllUsers = async (req, res) => {
-//   // console.log("request", req.userId);
-//   const users = await User.findAll({
-//     where: {
-//       id: req.userId,
-//     },
-//     attributes: { exclude: ["password"] },
-//   });
-//   res.send(users);
-// };
 
 const oneUserWithId = async (req, res) => {
   const users = await User.findOne({
     where: {
       id: req.params.id,
-      // address: "bth"
     },
   });
   res.send(users);
@@ -42,10 +31,8 @@ const deleteOneUserWithId = async (req, res) => {
   const users = await User.destroy({
     where: {
       id: req.params.id,
-      // address: "bth"
     },
   });
-  // console.log("values", targetData);
   res.send(`${targetData.name} deleted successfully`);
 };
 
@@ -53,7 +40,6 @@ const updateUser = async (req, res) => {
   const users = await User.update(req.body, {
     where: {
       id: req.params.id,
-      // address: "bth"
     },
   });
   res.send(users);

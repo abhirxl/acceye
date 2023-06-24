@@ -4,23 +4,11 @@ const Sequelize = require("sequelize");
 
 const basename = path.basename(__filename);
 
-// const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'docker';
-// const config = require(`${__dirname}/../config/config.json`)[env];
-const config = require("../config/config.json").dev
-// {
-//   username: "root",
-//   password: "abhi@mysql",
-//   database: "task_db",
-//   host: "127.0.0.1",
-//   dialect: "mysql",
-// };
+const config = require("../config/config.json").dev;
+
 const db = {};
 let sequelize;
-// if (config.use_env_variable) {
-//     sequelize = new Sequelize(process.env[config.use_env_variable], config, { logging: false });
-// } else {
-//     sequelize = new Sequelize(config.database, config.username, config.password, config, { logging: false });
-// }
+
 sequelize = new Sequelize(
   config.database,
   config.username,
@@ -47,7 +35,6 @@ Object.keys(db).forEach((modelName) => {
     db[modelName].associate(db);
   }
 });
-// console.log("db list",db)
 
 try {
   sequelize.authenticate();
